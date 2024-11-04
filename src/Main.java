@@ -55,5 +55,7 @@ public class Main {
         sessionManager.clearSession();
 
         sessionManager.printUserInfo();
+
+        //Test comment for pull request
    }
 }
