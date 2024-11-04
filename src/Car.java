@@ -5,6 +5,7 @@ public class Car extends AbstractVehicle{
 
     private VehicleInfo info;
     private boolean isRunning;
+    final int MAX_SPEED = 300;
 
     public Car(String make, String model, int year) {
         // this.make = make;

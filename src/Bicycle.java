@@ -1,6 +1,7 @@
 public class Bicycle extends AbstractVehicle{
     private String brand;
     private String type;
+    final int MAX_SPEED = 60;
 
     public Bicycle(String brand, String type) {
         this.brand = brand;
